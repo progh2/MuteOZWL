@@ -7,10 +7,10 @@ K에듀파인 설치 후 컴퓨터 부팅 시 OZWebLauncher 알림이 뜨지 않
 
 
 ## 파일 다운로드
-* [MuteOzWL.zip (v1.0)](https://github.com/progh2/MuteOZWL/releases/download/v1.0/MuteOzWL.zip)
+* [MuteOzWL.zip (v1.1)](https://github.com/progh2/MuteOZWL/releases/download/v1.1/MuteOzWL1.1.zip)
 
 ## 사용법
-1. [MuteOzWL.zip](https://github.com/progh2/MuteOZWL/releases/download/v1.0/MuteOzWL.zip) 파일을 다운받아 압축을 풀어주세요(압축 해제 프로그램으로는 [반디집](https://kr.bandisoft.com/bandizip/)을 추천합니다.).
+1. [MuteOzWL.zip](https://github.com/progh2/MuteOZWL/releases/download/v1.1/MuteOzWL1.1.zip) 파일을 다운받아 압축을 풀어주세요(압축 해제 프로그램으로는 [반디집](https://kr.bandisoft.com/bandizip/)을 추천합니다.).
 
 2. Windows의 PC 보호 화면이 나오면 `추가 정보`를 클릭해서 `실행`을 눌러주세요. 제가 따로 Microsoft에 돈내고 공식 개발된 프로그램으로 등록된 것이 아니기 때문에 뜨는 경고문입니다. 
 
