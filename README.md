@@ -64,7 +64,7 @@ C# with WinForm
  * https://happyguy81.tistory.com/47
 
 ### C# 관리자 권한상승 설정
-1. ClickOnce 보안설정을 켠다. 2. 권한 수정 3. ClickOnce 보안설정을 끈다.  <-- 끈다는 것을 읽지 않아서 삽질했습니다. 끝까지 내용을 읽고 따라하세요. 
+1 ClickOnce 보안설정을 켠다. -> 2 권한 수정 -> 3 ClickOnce 보안설정을 끈다.  <-- 3 끈다는 것을 읽지 않아서 삽질했습니다. 끝까지 내용을 읽고 따라하세요. 
  * https://returngoto.tistory.com/18
 
 ### Github Page에 유튜브 임베딩하기
