@@ -33,6 +33,8 @@ K에듀파인 설치 후 컴퓨터 부팅 시 OZWebLauncher 알림이 뜨지 않
 
 [![뻔뻔한 구글쌤 - 성가신 oz web launcher 안나오게 하는 법 (feat. 케에~듀파인)](https://user-images.githubusercontent.com/1307187/77647486-d9a75600-6fa9-11ea-89ec-37a037c21727.png)](https://www.youtube.com/watch?v=23Gsk3yg4r4)
 
+{% include youtube.html id=23Gsk3yg4r4 width=560 height=315 %}
+
 https://www.youtube.com/watch?v=23Gsk3yg4r4
 
 위와 관련해서 해당 설정을 하면 윈도우 레지스트리 값이 추가된다는 것을 박지우 선생님이 알려주셨습니다.
