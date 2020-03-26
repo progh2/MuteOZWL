@@ -29,9 +29,10 @@ K에듀파인 설치 후 컴퓨터 부팅 시 OZWebLauncher 알림이 뜨지 않
 윈도우즈 사용자 계정 컨트롤(UAC)에 의해서 아래와 같은 OZWebLauncher(1028) 관련 알림이 뜨고 `예`를 누를 때까지 계속 창이 떠서 물어봅니다. 이것은 해당 프로그램이 관리자 권한(Administrator)을 필요로 하여 사용자에게 요청하는 것으로 매번 컴퓨터를 킬 때마다 떠서 여간 귀찮은 것이 아닙니다.
 ![image](https://user-images.githubusercontent.com/1307187/77643251-63ebbc00-6fa2-11ea-9644-0de5ab7cdc43.png)
 
-이를 해결하기 위한 방법으로 관리자 권한을 주면 됩니다. 윈도우 메뉴를 통해서 정석적으로 설정하는 방법은 다음과 같습니다.
+이를 해결하기 위한 방법으로 관리자 권한을 주면 됩니다. 윈도우 메뉴를 통해서 정석적으로 설정하는 방법은 다음과 같습니다. [김재현 선생님의 유튜브 "뻔뻔한 구글쌤 - 성가신 oz web launcher 안나오게 하는 법 (feat. 케에~듀파인)](https://www.youtube.com/watch?v=23Gsk3yg4r4)
 
-[![뻔뻔한 구글쌤 - 성가신 oz web launcher 안나오게 하는 법 (feat. 케에~듀파인)](https://i.ytimg.com/vi/23Gsk3yg4r4/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAhpOkK2MYCUG6N6BR-jXjUSBFJ_A)](https://www.youtube.com/watch?v=23Gsk3yg4r4)
+[![뻔뻔한 구글쌤 - 성가신 oz web launcher 안나오게 하는 법 (feat. 케에~듀파인)](![image](https://user-images.githubusercontent.com/1307187/77647486-d9a75600-6fa9-11ea-89ec-37a037c21727.png)
+)](https://www.youtube.com/watch?v=23Gsk3yg4r4)
 
 https://www.youtube.com/watch?v=23Gsk3yg4r4
 
