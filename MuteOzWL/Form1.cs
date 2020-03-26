@@ -12,7 +12,6 @@ namespace RegistryKeyTest
 {
     public partial class Form1 : Form
     {
-        string m_strText = "";
         const string REG_ADDRESS = @"SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers";
         const string KEY = @"C:\Program Files (x86)\FORCS\OZWebLauncher\OZWLBridge.exe";
         const string KEY_VALUE = @"~ RUNASADMIN";
@@ -30,27 +29,19 @@ namespace RegistryKeyTest
         private void getStatus()
         {
             reg = Registry.LocalMachine.CreateSubKey(REG_ADDRESS);
-            m_strText = Convert.ToString(reg.GetValue(KEY, ""));
-            if (m_strText == "")
+            string key_value = Convert.ToString(reg.GetValue(KEY, ""));
+            
+            if (reg.ValueCount > 0 && key_value == KEY_VALUE)
             {
-                toolStripStatusLabel2.Text = "알림 끄기가 적용되어있지 않습니다";
-                button1.Enabled = true;
-                button2.Enabled = false;
-                //MessageBox.Show("레지스트리가 존재하지 않습니다.");
-            }
-
-            if (reg.ValueCount > 0)
-            {
-                m_strText = Convert.ToString(reg.GetValue(KEY_VALUE)); ;
                 toolStripStatusLabel2.Text = "알림 끄기가 적용되어 있습니다";
-                button1.Enabled = false;
-                button2.Enabled = true;
+                btnMuteOn.Enabled = false;
+                btnMuteOff.Enabled = true;
             }
             else
             {
                 toolStripStatusLabel2.Text = "알림 끄기가 적용되어있지 않습니다";
-                button1.Enabled = true;
-                button2.Enabled = false;
+                btnMuteOn.Enabled = true;
+                btnMuteOff.Enabled = false;
             }
 
             reg.Close();

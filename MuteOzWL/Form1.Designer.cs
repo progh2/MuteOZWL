@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lblTitle = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnMuteOn = new System.Windows.Forms.Button();
+            this.btnMuteOff = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
@@ -50,25 +50,25 @@
             this.lblTitle.Text = "OzWebLauncher 알림 끄기";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // btnMuteOn
             // 
-            this.button1.Location = new System.Drawing.Point(16, 219);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(242, 33);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "알림 끄기 적용";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnMuteOn.Location = new System.Drawing.Point(16, 219);
+            this.btnMuteOn.Name = "btnMuteOn";
+            this.btnMuteOn.Size = new System.Drawing.Size(242, 33);
+            this.btnMuteOn.TabIndex = 4;
+            this.btnMuteOn.Text = "알림 끄기 적용";
+            this.btnMuteOn.UseVisualStyleBackColor = true;
+            this.btnMuteOn.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnMuteOff
             // 
-            this.button2.Location = new System.Drawing.Point(16, 258);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(242, 33);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "알림 끄기 취소";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnMuteOff.Location = new System.Drawing.Point(16, 258);
+            this.btnMuteOff.Name = "btnMuteOff";
+            this.btnMuteOff.Size = new System.Drawing.Size(242, 33);
+            this.btnMuteOff.TabIndex = 6;
+            this.btnMuteOff.Text = "알림 끄기 취소";
+            this.btnMuteOff.UseVisualStyleBackColor = true;
+            this.btnMuteOff.Click += new System.EventHandler(this.button2_Click);
             // 
             // statusStrip1
             // 
@@ -111,8 +111,8 @@
             this.ClientSize = new System.Drawing.Size(270, 325);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnMuteOff);
+            this.Controls.Add(this.btnMuteOn);
             this.Controls.Add(this.lblTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -132,8 +132,8 @@
 
         #endregion
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnMuteOn;
+        private System.Windows.Forms.Button btnMuteOff;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
