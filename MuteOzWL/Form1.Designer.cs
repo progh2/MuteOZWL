@@ -37,8 +37,10 @@
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.프로젝트깃허브ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.FileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ExitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.HelpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.HomepageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -111,27 +113,43 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.도움말ToolStripMenuItem});
+            this.FileToolStripMenuItem,
+            this.HelpToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(270, 24);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // 도움말ToolStripMenuItem
+            // FileToolStripMenuItem
             // 
-            this.도움말ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.프로젝트깃허브ToolStripMenuItem});
-            this.도움말ToolStripMenuItem.Name = "도움말ToolStripMenuItem";
-            this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
-            this.도움말ToolStripMenuItem.Text = "도움말";
+            this.FileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ExitToolStripMenuItem});
+            this.FileToolStripMenuItem.Name = "FileToolStripMenuItem";
+            this.FileToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.FileToolStripMenuItem.Text = "파일";
             // 
-            // 프로젝트깃허브ToolStripMenuItem
+            // ExitToolStripMenuItem
             // 
-            this.프로젝트깃허브ToolStripMenuItem.Name = "프로젝트깃허브ToolStripMenuItem";
-            this.프로젝트깃허브ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.프로젝트깃허브ToolStripMenuItem.Text = "홈페이지";
-            this.프로젝트깃허브ToolStripMenuItem.Click += new System.EventHandler(this.프로젝트깃허브ToolStripMenuItem_Click);
+            this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ExitToolStripMenuItem.Text = "끝내기";
+            this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
+            // 
+            // HelpToolStripMenuItem1
+            // 
+            this.HelpToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.HomepageToolStripMenuItem});
+            this.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1";
+            this.HelpToolStripMenuItem1.Size = new System.Drawing.Size(55, 20);
+            this.HelpToolStripMenuItem1.Text = "도움말";
+            // 
+            // HomepageToolStripMenuItem
+            // 
+            this.HomepageToolStripMenuItem.Name = "HomepageToolStripMenuItem";
+            this.HomepageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.HomepageToolStripMenuItem.Text = "홈페이지";
+            this.HomepageToolStripMenuItem.Click += new System.EventHandler(this.HomepageToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -172,8 +190,10 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem 도움말ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 프로젝트깃허브ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem FileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ExitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem HelpToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem HomepageToolStripMenuItem;
     }
 }
 

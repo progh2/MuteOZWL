@@ -15,9 +15,10 @@ namespace RegistryKeyTest
         const string REG_ADDRESS = @"SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers";
         const string KEY_32 = @"C:\Program Files\FORCS\OZWebLauncher\OZWLBridge.exe";
         const string KEY_64 = @"C:\Program Files (x86)\Forcs\OZWebLauncher\OZWLBridge.exe";
-        string KEY;
         const string KEY_VALUE = @"~ RUNASADMIN";
+        string KEY;
         RegistryKey reg;
+
         public Form1()
         {
             InitializeComponent();
@@ -62,7 +63,7 @@ namespace RegistryKeyTest
             reg = Registry.LocalMachine.CreateSubKey(REG_ADDRESS);
             reg.SetValue(KEY, KEY_VALUE);
             reg.Close();
-            MessageBox.Show("알림 끄기가 적용되었습니다.");
+            MessageBox.Show("알림 끄기가 적용되었습니다.\n완전히 반영이 되려면 컴퓨터를  재부팅하셔야 합니다.");
             getStatus();
         }
 
@@ -74,18 +75,20 @@ namespace RegistryKeyTest
                 reg.DeleteValue(KEY);
             }
             reg.Close();
-            MessageBox.Show("알림 끄기가 취소되었습니다.");
+            MessageBox.Show("알림 끄기가 취소되었습니다.\n완전히 반영이 되려면 컴퓨터를 재부팅하셔야 합니다.");
             getStatus();
         }
 
-        private void 이프로그램은ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void 프로젝트깃허브ToolStripMenuItem_Click(object sender, EventArgs e)
+
+
+        private void HomepageToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://progh2.github.io/MuteOZWL/");
         }
-}
+    }
 }
