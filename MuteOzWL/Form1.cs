@@ -64,5 +64,15 @@ namespace RegistryKeyTest
             MessageBox.Show("알림 끄기가 취소되었습니다.");
             getStatus();
         }
-    }
+
+        private void 이프로그램은ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 프로젝트깃허브ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/progh2/MuteOZWL");
+        }
+}
 }
