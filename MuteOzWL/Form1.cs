@@ -13,7 +13,9 @@ namespace RegistryKeyTest
     public partial class Form1 : Form
     {
         const string REG_ADDRESS = @"SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers";
-        const string KEY = @"C:\Program Files (x86)\FORCS\OZWebLauncher\OZWLBridge.exe";
+        const string KEY_32 = @"C:\Program Files\FORCS\OZWebLauncher\OZWLBridge.exe";
+        const string KEY_64 = @"C:\Program Files (x86)\FORCS\OZWebLauncher\OZWLBridge.exe";
+        string KEY;
         const string KEY_VALUE = @"~ RUNASADMIN";
         RegistryKey reg;
         public Form1()
@@ -23,6 +25,14 @@ namespace RegistryKeyTest
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            if(Environment.Is64BitProcess == true)
+            {
+                KEY = KEY_64;
+            }
+            else
+            {
+                KEY = KEY_32;
+            }
             getStatus();
         }
 
