@@ -33,7 +33,7 @@ K에듀파인 설치 후 컴퓨터 부팅 시 OZWebLauncher 알림이 뜨지 않
 
 [![뻔뻔한 구글쌤 - 성가신 oz web launcher 안나오게 하는 법 (feat. 케에~듀파인)](https://user-images.githubusercontent.com/1307187/77647486-d9a75600-6fa9-11ea-89ec-37a037c21727.png)](https://www.youtube.com/watch?v=23Gsk3yg4r4)
 
-{% include youtube.html width=560 height=315 id=23Gsk3yg4r4 src=23Gsk3yg4r4 %}
+{% include youtube.html width="560" height="315" src="https://www.youtube.com/embed/23Gsk3yg4r4" %}
 
 https://www.youtube.com/watch?v=23Gsk3yg4r4
 
