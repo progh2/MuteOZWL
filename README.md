@@ -54,6 +54,9 @@ https://www.youtube.com/watch?v=23Gsk3yg4r4
 값
 > ~ RUNASADMIN
 
+## 사용 기술
+C# with WinForm
+
 ## 관련 문서
 아래 링크의 C# 관련 글들을 참고하여 만들었습니다.
 
@@ -61,4 +64,10 @@ https://www.youtube.com/watch?v=23Gsk3yg4r4
  * https://happyguy81.tistory.com/47
 
 ### C# 관리자 권한상승 설정
+1. ClickOnce 보안설정을 켠다. 2. 권한 수정 3. ClickOnce 보안설정을 끈다.  <-- 끈다는 것을 읽지 않아서 삽질했습니다. 끝까지 내용을 읽고 따라하세요. 
  * https://returngoto.tistory.com/18
+
+### Github Page에 유튜브 임베딩하기
+어쩐 일인지 저의 경우에는 아래 글과는 달리 include.id를 넘기는건 값이 반영되지 않았고 src값을 통으로 넣어서 include.src로 지정하니 반영되었습니다. 
+* https://seanlion.github.io/blog/4
+ * https://github.com/github/pages-gem/issues/609
