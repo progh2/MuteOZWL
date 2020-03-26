@@ -72,7 +72,7 @@ namespace RegistryKeyTest
 
         private void 프로젝트깃허브ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/progh2/MuteOZWL");
+            System.Diagnostics.Process.Start("https://progh2.github.io/MuteOZWL/");
         }
 }
 }

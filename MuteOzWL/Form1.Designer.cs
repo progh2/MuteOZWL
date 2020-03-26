@@ -39,7 +39,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.프로젝트깃허브ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.이프로그램은ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -122,8 +121,7 @@
             // 도움말ToolStripMenuItem
             // 
             this.도움말ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.프로젝트깃허브ToolStripMenuItem,
-            this.이프로그램은ToolStripMenuItem});
+            this.프로젝트깃허브ToolStripMenuItem});
             this.도움말ToolStripMenuItem.Name = "도움말ToolStripMenuItem";
             this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.도움말ToolStripMenuItem.Text = "도움말";
@@ -132,15 +130,8 @@
             // 
             this.프로젝트깃허브ToolStripMenuItem.Name = "프로젝트깃허브ToolStripMenuItem";
             this.프로젝트깃허브ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.프로젝트깃허브ToolStripMenuItem.Text = "프로젝트 깃허브";
+            this.프로젝트깃허브ToolStripMenuItem.Text = "홈페이지";
             this.프로젝트깃허브ToolStripMenuItem.Click += new System.EventHandler(this.프로젝트깃허브ToolStripMenuItem_Click);
-            // 
-            // 이프로그램은ToolStripMenuItem
-            // 
-            this.이프로그램은ToolStripMenuItem.Name = "이프로그램은ToolStripMenuItem";
-            this.이프로그램은ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.이프로그램은ToolStripMenuItem.Text = "이 프로그램은..";
-            this.이프로그램은ToolStripMenuItem.Click += new System.EventHandler(this.이프로그램은ToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -183,7 +174,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 도움말ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 프로젝트깃허브ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 이프로그램은ToolStripMenuItem;
     }
 }
 
