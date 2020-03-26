@@ -14,7 +14,7 @@ namespace RegistryKeyTest
     {
         const string REG_ADDRESS = @"SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers";
         const string KEY_32 = @"C:\Program Files\FORCS\OZWebLauncher\OZWLBridge.exe";
-        const string KEY_64 = @"C:\Program Files (x86)\FORCS\OZWebLauncher\OZWLBridge.exe";
+        const string KEY_64 = @"C:\Program Files (x86)\Forcs\OZWebLauncher\OZWLBridge.exe";
         string KEY;
         const string KEY_VALUE = @"~ RUNASADMIN";
         RegistryKey reg;
@@ -69,7 +69,10 @@ namespace RegistryKeyTest
         private void button2_Click(object sender, EventArgs e)
         {
             reg = Registry.LocalMachine.CreateSubKey(REG_ADDRESS);
-            reg.DeleteValue(KEY);
+            if (reg.GetValue(KEY) != null)
+            {
+                reg.DeleteValue(KEY);
+            }
             reg.Close();
             MessageBox.Show("알림 끄기가 취소되었습니다.");
             getStatus();
