@@ -31,8 +31,7 @@ K에듀파인 설치 후 컴퓨터 부팅 시 OZWebLauncher 알림이 뜨지 않
 
 이를 해결하기 위한 방법으로 관리자 권한을 주면 됩니다. 윈도우 메뉴를 통해서 정석적으로 설정하는 방법은 다음과 같습니다. [김재현 선생님의 유튜브 "뻔뻔한 구글쌤 - 성가신 oz web launcher 안나오게 하는 법 (feat. 케에~듀파인)](https://www.youtube.com/watch?v=23Gsk3yg4r4)
 
-[![뻔뻔한 구글쌤 - 성가신 oz web launcher 안나오게 하는 법 (feat. 케에~듀파인)](![image](https://user-images.githubusercontent.com/1307187/77647486-d9a75600-6fa9-11ea-89ec-37a037c21727.png
-)](https://www.youtube.com/watch?v=23Gsk3yg4r4)
+[![뻔뻔한 구글쌤 - 성가신 oz web launcher 안나오게 하는 법 (feat. 케에~듀파인)](https://user-images.githubusercontent.com/1307187/77647486-d9a75600-6fa9-11ea-89ec-37a037c21727.png)](https://www.youtube.com/watch?v=23Gsk3yg4r4)
 
 https://www.youtube.com/watch?v=23Gsk3yg4r4
 
