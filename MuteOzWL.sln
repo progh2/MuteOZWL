@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuteOzWL", "MuteOzWL\MuteOzWL.csproj", "{74DE9B26-7CF7-4C4D-9451-49A56A416E5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74DE9B26-7CF7-4C4D-9451-49A56A416E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DE9B26-7CF7-4C4D-9451-49A56A416E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DE9B26-7CF7-4C4D-9451-49A56A416E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DE9B26-7CF7-4C4D-9451-49A56A416E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2E0F114-47C8-4081-B64B-0BDEA8352CB5}
+	EndGlobalSection
+EndGlobal
