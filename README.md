@@ -2,9 +2,18 @@
 K에듀파인 설치 후 컴퓨터 부팅 시 OZWebLauncher 알림이 뜨지 않도록 도와줍니다! 
 
 ## 사용법
-MuteOZWL.zip 파일을 다운받으신 후 압축을 풀어 MuteOZWL.exe 파일을 실행합니다.
+1. [MuteOzWL.exe](https://github.com/progh2/MuteOZWL/releases/download/v1.0/MuteOzWL.zip) 파일을 다운받아 실행하세요.
 
-`알림 끄기 적용` 버튼을 클릭하면 부팅 시 알림이 안뜨게 하며 `알림 끄기 취소` 버튼을 클릭하면 알림이 안뜨게 하는 설정을 제거합니다.
+2. Windows의 PC 보호 화면이 나오면 `추가 정보`를 클릭해서 `실행`을 눌러주세요. 제가 따로 Microsoft에 돈내고 공식 개발된 프로그램으로 등록된 것이 아니기 때문에 뜨는 경고문입니다. 
+![image](https://user-images.githubusercontent.com/1307187/77645671-723bd700-6fa6-11ea-8e6c-36e19db83289.png) 
+![image](https://user-images.githubusercontent.com/1307187/77645690-7bc53f00-6fa6-11ea-849b-91880cffc3bc.png)
+
+3. 게시자를 알 수 있는 웹이... 뭐라고 물어보면 `예`를 클릭해주세요. 관리자 권한으로 실행해야해서 뜨는 경고문입니다. 
+
+4. 올바르게 실행된다면 다음과 같은 화면이 나타나야합니다. `알림 끄기 적용`을 눌러서 귀찮은 알림에서 벗어나세요~ 
+![image](https://user-images.githubusercontent.com/1307187/77645794-b0d19180-6fa6-11ea-8a9d-652fc28d8946.png)
+
+
 
 ## 원리
 윈도우즈 사용자 계정 컨트롤(UAC)에 의해서 아래와 같은 OZWebLauncher(1028) 관련 알림이 뜨고 `예`를 누를 때까지 계속 창이 떠서 물어봅니다. 이것은 해당 프로그램이 관리자 권한(Administrator)을 필요로 하여 사용자에게 요청하는 것으로 매번 컴퓨터를 킬 때마다 떠서 여간 귀찮은 것이 아닙니다.
