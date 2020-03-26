@@ -3,6 +3,9 @@
 # MuteOZWL
 K에듀파인 설치 후 컴퓨터 부팅 시 OZWebLauncher 알림이 뜨지 않도록 도와줍니다! 
 
+![x2](https://user-images.githubusercontent.com/1307187/77646516-05294100-6fa8-11ea-9b7f-3ed5fb48b291.jpg)
+
+
 ## 파일 다운로드
 * [MuteOzWL.zip (v1.0)](https://github.com/progh2/MuteOZWL/releases/download/v1.0/MuteOzWL.zip)
 
